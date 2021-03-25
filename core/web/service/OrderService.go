@@ -7,11 +7,11 @@ import (
 	"log"
 	"mime/multipart"
 	"strconv"
-	"web/dao"
-	"web/db"
-	"web/model"
-	"web/myerr"
-	"web/util"
+	"web/core/web/dao"
+	"web/pkg/db"
+	"web/pkg/model"
+	"web/pkg/myerr"
+	"web/pkg/util"
 )
 
 type OrderService struct {

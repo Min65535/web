@@ -5,10 +5,10 @@ import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"log"
-	"web/enum"
-	"web/model"
+	"web/pkg/enum"
+	"web/pkg/model"
 	"web/pkg/setting"
-	"web/util"
+	"web/pkg/util"
 )
 
 var DB *gorm.DB

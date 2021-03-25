@@ -2,8 +2,8 @@ package dao
 
 import (
 	"github.com/jinzhu/gorm"
-	"web/model"
-	"web/util"
+	"web/pkg/model"
+	"web/pkg/util"
 )
 
 type OrderDao struct {

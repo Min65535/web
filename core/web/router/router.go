@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"web/handler"
+	"web/core/web/handler"
 	"web/pkg/setting"
 )
 

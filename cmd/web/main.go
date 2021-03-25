@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"web/dao"
-	"web/db"
-	"web/handler"
+	"web/core/web/dao"
+	"web/core/web/handler"
+	"web/core/web/router"
+	"web/core/web/service"
+	"web/pkg/db"
 	"web/pkg/setting"
-	"web/router"
-	"web/service"
 )
 
 func main() {

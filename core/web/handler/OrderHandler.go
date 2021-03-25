@@ -7,9 +7,9 @@ import (
 	"os"
 	"path"
 	"strconv"
-	"web/enum"
-	"web/model"
-	"web/service"
+	"web/core/web/service"
+	"web/pkg/enum"
+	"web/pkg/model"
 )
 
 type OrderHandler struct {
